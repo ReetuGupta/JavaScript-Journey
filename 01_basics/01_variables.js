@@ -1,6 +1,6 @@
 const accountId = 1111; // can not be redefined
 let accountEmail = "reetu@gmail.com"; // prefered
-var accountPassword = "1234"; // not to use bcz of scope issue
+var accountPassword = "1234"; // not to use bcz of scope issue , used in old browsers 
 accountCity = "Lucknow"; // this is also method 
 let accountState; // output=> undfined
 
