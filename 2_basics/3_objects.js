@@ -49,13 +49,49 @@ const users = [ // array of objects
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // array of keys
-console.log(Object.values(tinderUser)); // array of values
-console.log(Object.entries(tinderUser));// array of entries
+// console.log(Object.keys(tinderUser)); // array of keys
+// console.log(Object.values(tinderUser)); // array of values
+// console.log(Object.entries(tinderUser));// array of entries
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));// true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));// true
+
+/* **********object destructring */
+
+const object1 = {
+    course: "javascript",
+    type: "oneshot",
+    where: "youtube"
+}
+
+console.log(object1.course);// sometimes we have more data so we need to write this more so another way is=
+
+const {course} = object1;
+console.log(course);
+
+//or
+const {course: c} = object1;
+console.log(c);
+
+
+//this is object destructuring
+
+
+
+//APIs we get in the form of JSON
+//this is JSON format
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
