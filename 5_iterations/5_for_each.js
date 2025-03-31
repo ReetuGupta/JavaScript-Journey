@@ -38,3 +38,9 @@ myCoding.forEach( (item) => {
     
     console.log(item.languageName);
 } )
+
+
+//*************************************Important
+//for...in → Best for Objects (Iterates over property keys).
+//for...of → Best for Iterables (Arrays, Strings, Maps, Sets, etc., but not objects).
+//forEach() → Best for Arrays (Preferred for executing functions on array elements).
